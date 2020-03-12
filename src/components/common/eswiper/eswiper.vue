@@ -1,5 +1,5 @@
 <template>
-  <el-carousel :interval="2000" arrow="always" class="swiper" autoplay height="225px">
+  <el-carousel :interval="2000" arrow="always" class="swiper" autoplay height="180px">
     <el-carousel-item v-for="(item) in imgs" :key="item.link" class="swiper-item">
       <a :href="item.link">
        <img :src="item.image" alt="">
